@@ -12,10 +12,10 @@ sudo apt-get update -y
 sudo apt-get install -y jenkins curl git g++ vim ant ntp
 
 # Install NodeJS
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-source ~/.profile
-nvm install v0.10.0
-nvm alias default v0.10.0
+#curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+#source ~/.profile
+#nvm install v0.10.0
+#nvm alias default v0.10.0
 
 #sudo apt-get install python-software-properties
 #sudo add-apt-repository ppa:chris-lea/node.js
