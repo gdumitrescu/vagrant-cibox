@@ -39,6 +39,7 @@ sudo wget -q http://updates.jenkins-ci.org/download/plugins/jdepend/1.2.3/jdepen
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/jslint/0.8.0/jslint.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/plot/1.5/plot.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/pmd/3.35/pmd.hpi
+sudo wget -q http://updates.jenkins-ci.org/download/plugins/rbenv/0.0.14/rbenv.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/tap/1.2.8/tap.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/vagrant/0.1.4/vagrant.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/violations/0.7.11/violations.hpi
