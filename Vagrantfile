@@ -13,8 +13,8 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, host: 8080, guest: 8080
 
   config.ssh.forward_agent = true
-  config.ssh.max_tries = 20
-  config.ssh.timeout = 120
+  #config.ssh.max_tries = 20
+  #config.ssh.timeout = 120
   
   config.vm.provision :shell, :path => "provision/script.sh"
 
