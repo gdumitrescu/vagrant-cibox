@@ -28,22 +28,14 @@ sudo apt-get install -y jenkins curl git g++ vim ant ntp
 # Install plugins
 cd /var/lib/jenkins/plugins/
 
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/analysis-core/1.50/analysis-core.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/checkstyle/3.35/checkstyle.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/cloverphp/0.3.3/cloverphp.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/dry/2.35/dry.hpi
+sudo wget -q http://updates.jenkins-ci.org/download/plugins/android-emulator/2.10/android-emulator.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/git/1.1.29/git.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/github/1.7/github.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/htmlpublisher/1.2/htmlpublisher.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/jdepend/1.2.3/jdepend.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/jslint/0.8.0/jslint.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/plot/1.5/plot.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/pmd/3.35/pmd.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/rbenv/0.0.14/rbenv.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/tap/1.2.8/tap.hpi
 sudo wget -q http://updates.jenkins-ci.org/download/plugins/vagrant/0.1.4/vagrant.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/violations/0.7.11/violations.hpi
-sudo wget -q http://updates.jenkins-ci.org/download/plugins/xunit/1.60/xunit.hpi
 
 sudo chown -R jenkins:nogroup /var/lib/jenkins/
 
