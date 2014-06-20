@@ -30,9 +30,6 @@ echo "source ~/.nvm/nvm.sh" >> ~/.bash_profile
 #sudo apt-get update -y
 #sudo apt-get install -y nodejs npm nodejs-dev
 
-# Install PHP
-#sudo apt-get install -y php-pear php5-mysql php5-memcache php5-imagick php5-curl php-apc php5-sqlite php5-xsl php5-xdebugb
-
 # Install plugins
 cd /var/lib/jenkins/plugins/
 
