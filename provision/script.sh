@@ -17,6 +17,14 @@ sudo apt-get install -y jenkins curl git g++ vim ant ntp
 #nvm install v0.10.0
 #nvm alias default v0.10.0
 
+wget --retry-connrefused -q -O -
+https://raw.github.com/creationix/nvm/master/install.sh | sh
+source ~/.nvm/nvm.sh
+
+nvm install 0.10.29
+nvm alias default 0.10.29
+echo "source ~/.nvm/nvm.sh" >> ~/.bash_profile
+
 #sudo apt-get install python-software-properties
 #sudo add-apt-repository ppa:chris-lea/node.js
 #sudo apt-get update -y
